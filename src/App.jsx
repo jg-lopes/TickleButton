@@ -11,8 +11,8 @@ function Button() {
   const [tickleFactor, setTickleFactor] = useState(0);
 
   const buttonStyle = {
-    "margin-left": getRandomInt(-tickleFactor, tickleFactor).toString() + "px",
-    "margin-top": getRandomInt(-tickleFactor, tickleFactor).toString() + "px",
+    marginLeft: getRandomInt(-tickleFactor, tickleFactor).toString() + "px",
+    marginTop: getRandomInt(-tickleFactor, tickleFactor).toString() + "px",
   };
 
   return (
