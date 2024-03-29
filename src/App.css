@@ -1,0 +1,21 @@
+.display-room {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95vh;
+}
+
+.tickle-room {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+
+.ui {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
